@@ -25,7 +25,7 @@ print(message3)
 _name="Esther"
 print(_name)
 
-total_marks="68"
+total_marks= 68
 print(total_marks)
 
 # for ="john" // this will show an error
