@@ -56,3 +56,11 @@ print(cars)
 del cars[4]
 print(cars)
 
+
+#research on remove and sort function on lists
+
+cars.sort(key= None)
+print(cars)
+
+cars.remove("Benz")
+print(cars)
