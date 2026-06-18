@@ -25,6 +25,6 @@ for x in range (50,70,2):
     
 print("========================")
 # a program that is able to print all the odd numbers between zero and 51
-for number in range (0,51,2):
+for number in range (1,51,2):
     print(number)
 
