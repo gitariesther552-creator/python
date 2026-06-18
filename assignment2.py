@@ -23,4 +23,8 @@ for leap_years in range(2000,2030,4):
 languages = ("french","arabic", "hindi","portugues","russian","english","german","japanese")
 print(languages)
 for language in languages:
-    print(language)
+    if language == "english":
+        print("english found")
+        break
+else:
+    print("english not found")
