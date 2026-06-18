@@ -2,14 +2,14 @@
 
 age = 18
 
-if age < 10:
+if age < 10 and age <12:
     print("You are in primary school")
 elif age >12 and age <15:
     print("You are in junior school")
 elif age >15 and age <19:
     print("You are in senior secondary")
 else:
-    print("You are in university")
+    print("You are in college")
     
     
     
@@ -22,5 +22,5 @@ for leap_years in range(2000,2030,4):
 # Assignment: Create a tuple of languages with 10 international languages. If English is found on the tuple, terminate the loop and print("English is found") otherwise print("English is not found")
 languages = ("french","arabic", "hindi","portugues","russian","english","german","japanese")
 print(languages)
-for english in languages:
-    print(english)
+for language in languages:
+    print(language)

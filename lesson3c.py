@@ -9,7 +9,7 @@ for valuable in range(n):
      block of codes to be executed
 """
 
-for greeting in range(5):
+for greeting in range(10):
     print("Hello there", greeting)
     
 
@@ -25,6 +25,6 @@ for x in range (50,70,2):
     
 print("========================")
 # a program that is able to print all the odd numbers between zero and 51
-for number in range (0,51,ord):
+for number in range (0,51,2):
     print(number)
 
